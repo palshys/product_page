@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+
+#discount{
+    background-color: turquoise;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+}
+
+#email-block{
+    position: sticky;
+    top:5vh;
+}   
+
+#subscription{
+    width: 30vw;
+    height:60vh;
+    background: turquoise;
+    opacity: 0.9;
+    position: sticky;
+    top: 20vh;
+    margin-left: 34.4vw;
+    text-align: center;
+}
+
+#close{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 5vh;
+}
+
+
+#subscription h2{
+    margin-top: 13vh;
+    color: red;
+}
+
+#subscription h2, p{
+    font-family: 'Staatliches', cursive;
+}
+
+#subscription input{
+    width: 15vw;
+    height: 5vh;
+    font-size: 2.5vh;
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+    margin-top:5vh;
+    font-family: 'Staatliches', cursive;
+
+}
+
+#applyDiscount{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 5vh;
+}
+
+#logo{
+    display: block;
+    margin: auto;
+}
+
+#pickup{
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+#social{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+#product-img{
+    display: block;
+    margin: auto;
+    margin-bottom: 10vh;
+}
+
+.price, #buydiv{
+    text-align: center;
+}
+
+#buy-button{
+    background-color: turquoise;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 1vh;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10vh;
+}
+
+#buy-button:hover{
+
+    font-size:101%;
+    transition: 0.1s;
+
+}
+
+#background, #background-2{
+    background-color: turquoise;
+    color: white;
+}
+
+#highlights{
+
+padding-top: 10vh;
+margin-bottom: 10vh;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.tech-name{
+    color: #277e79;
+}
+
+.tech-description{
+    width: 90%;
+    margin: auto;
+}
+
+.grid-item{
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+#gallery{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.grid-container-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat (3,1fr);
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+#toTop{
+    font-family: 'Staatliches', cursive;
+    color: white;
+}
+
+#toTop2{
+    padding: 2vh 2vh;
+}
